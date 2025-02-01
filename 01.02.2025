@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main()
+{
+int a,b,c,d,e,w,g,h,i,j,k,l;    
+printf("the price of rice a=");
+scanf("%d",&a);
+printf("weight of rice b=");
+scanf("%d",&b);
+c=a*b;
+printf("total aount o ice=%d\n",c);
+printf("the price of suga d=");
+scanf("%d",&d);
+printf("the weight of suga e=");
+scanf("%d",&e);
+w=e*d;
+printf("total aount o suga=%d\n",w);
+printf("the price of oil g=");
+scanf("%d",&g);
+printf("the weight of oil g=");
+scanf("%d",&h);
+i=h*g;
+printf("the total aount of oil i=%d\n",i);
+j=i+w+c;
+printf("the  sub total=%d\n",j);
+k=j*5/100;
+printf("tax=%d\n",k);
+l=k+j;
+printf("total amount =%d",l);
+return 0;
+
+
+}
