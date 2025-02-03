@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a,b;
+    printf("aount in usd=");
+    scanf("%d",&a);
+    b=a*83;
+    printf("aount in IN=%d",b);
+    
+
+    return 0;
+}
+output
+aount in usd=20
+aount in IN=1660
