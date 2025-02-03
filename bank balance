@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a=5000,b=2000,c,d=1500,e;
+    printf("intial balance=%d\n",a);
+    printf("deposit=%d\n",b);
+    c=a+b;
+    printf("balance=%d\n",c);
+    printf("withdaw=%d\n",d);
+    e=c-d;
+    printf("inal balance=%d\n",e);
+    return 0;
+}
+
+
+
+
+output
+intial balance=5000
+deposit=2000
+balance=7000
+withdaw=1500
+inal balance=5500
+
+
+=== Code Execution Successful ===
