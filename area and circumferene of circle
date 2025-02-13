@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() 
+{
+float a,b,c,d;
+    printf("enter the radius=");
+    scanf("%f",&a);
+  b=3.14*a*a;
+    printf("area of circle=%f\n",b);
+c=2*3.14*a;
+printf("perimeter of circle=%f",c);
+    
+      
+    return 0;
+}
+
+output
+enter the radius=5
+area of circle=78.500000
+perimeter of circle=31.400000
+
+=== Code Execution Successful ===
