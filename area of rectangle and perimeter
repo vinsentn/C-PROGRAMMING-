@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main() 
+{
+int a,b,c,d;
+    printf("enter the value of breadth=");
+    scanf("%d",&a);
+    printf("enter the value of length=");
+    scanf("%d",&b);
+    c=a*b;
+      printf("area pf rectangle=%d\n",c);
+    d=2*(a+b);
+        printf("perimeter of rectangle=%d",d);
+    return 0;
+}
+output
+enter the value of breadth=5
+enter the value of length=6
+area pf rectangle=30
+perimeter of rectangle=22
+
+=== Code Execution Successful ===
