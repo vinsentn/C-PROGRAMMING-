@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() 
+{
+float a,b,area;
+    printf("enter the value of base=");
+    scanf("%f",&a);
+    printf("enter the value of height=");
+    scanf("%f",&b);
+    area=0.5*(a*b);
+      printf("area of triangle=%f\n",area);
+    
+    return 0;
+}
+output
+enter the value of base=5
+enter the value of height=9
+area of triangle=22.500000
+
+
+=== Code Execution Successful ===
