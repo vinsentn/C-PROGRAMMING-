@@ -1,0 +1,86 @@
+#include <stdio.h>
+#include <string.h>
+
+struct Book
+{
+  char bookname[50];
+  char authorname[50];
+  int pageNo;
+  float price;
+} b1,b2;
+
+int main() {
+
+  strcpy(b1.bookname, "c-programming");
+  strcpy(b1.authorname,"Dennis Ritche");
+
+  b1.pageNo = 19;
+  b1.price = 250;
+
+  printf("Book Name: %s\n", b1.bookname);
+  printf("Author Name:%s\n",b1.authorname);
+  printf("Page No: %d\n", b1.pageNo);
+  printf("Price: %.2f\n\n", b1.price);
+  strcpy(b2.bookname, "Java");
+  strcpy(b2.authorname,"JAMES GOASILING");
+
+  b2.pageNo = 150;
+  b2.price = 200;
+
+  printf("Book Name: %s\n", b2.bookname);
+  printf("Author Name:%s\n",b2.authorname);
+  printf("Page No: %d\n", b2.pageNo);
+  printf("Price: %.2f", b2.price);
+  
+
+  return 0;
+}#include <stdio.h>
+#include <string.h>
+
+struct Book
+{
+  char bookname[50];
+  char authorname[50];
+  int pageNo;
+  float price;
+} b1,b2;
+
+int main() {
+
+  strcpy(b1.bookname, "c-programming");
+  strcpy(b1.authorname,"Dennis Ritche");
+
+  b1.pageNo = 19;
+  b1.price = 250;
+
+  printf("Book Name: %s\n", b1.bookname);
+  printf("Author Name:%s\n",b1.authorname);
+  printf("Page No: %d\n", b1.pageNo);
+  printf("Price: %.2f\n\n", b1.price);
+  strcpy(b2.bookname, "Java");
+  strcpy(b2.authorname,"JAMES GOASILING");
+
+  b2.pageNo = 150;
+  b2.price = 200;
+
+  printf("Book Name: %s\n", b2.bookname);
+  printf("Author Name:%s\n",b2.authorname);
+  printf("Page No: %d\n", b2.pageNo);
+  printf("Price: %.2f", b2.price);
+  
+
+  return 0;
+}
+output
+
+Book Name: c-programming
+Author Name:Dennis Ritche
+Page No: 19
+Price: 250.00
+
+Book Name: Java
+Author Name:JAMES GOASILING
+Page No: 150
+Price: 200.00
+
+=== Code Execution Successful ===
