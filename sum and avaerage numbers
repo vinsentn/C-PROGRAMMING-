@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() 
+{
+    int n,sum;
+    float average;
+    printf("enter an positive integer:");
+    scanf("%d",&n);
+    sum=(n*(n+1))/2;
+    average=sum/n;
+    printf("sum of numbers:%d\n",sum);
+    printf("average of number:%.2f",average);
+    return 0;
+}
